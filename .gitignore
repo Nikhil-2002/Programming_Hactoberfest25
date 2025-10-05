@@ -1,0 +1,15 @@
+# Ignore compiled files
+*.exe
+*.class
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if you use Python later)
+__pycache__/
+*.pyc
