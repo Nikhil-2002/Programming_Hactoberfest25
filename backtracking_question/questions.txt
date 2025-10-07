@@ -1,0 +1,74 @@
+1. Permutations
+Link: https://leetcode.com/problems/permutations/
+Difficulty: Medium
+Description: Given a collection of distinct integers, return all possible permutations.
+
+2. Permutations II
+Link: https://leetcode.com/problems/permutations-ii/
+Difficulty: Medium
+Description: Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+3. Letter Combinations of a Phone Number
+Link: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+Difficulty: Medium
+Description: Given a string containing digits from 2-9, return all possible letter combinations that the number could represent.
+
+4. Subsets
+Link: https://leetcode.com/problems/subsets/
+Difficulty: Medium
+Description: Given a set of distinct integers, return all possible subsets.
+
+5. Subsets II
+Link: https://leetcode.com/problems/subsets-ii/
+Difficulty: Medium
+Description: Given a collection of integers that might contain duplicates, return all possible subsets.
+
+6. Combination Sum
+Link: https://leetcode.com/problems/combination-sum/
+Difficulty: Medium
+Description: Given an array of candidate numbers and a target number, find all unique combinations in the array where the candidate numbers sum to the target.
+
+7. Combination Sum II
+Link: https://leetcode.com/problems/combination-sum-ii/
+Difficulty: Medium
+Description: Given a collection of candidate numbers and a target number, find all unique combinations in the collection where the candidate numbers sum to the target.
+
+8. Palindrome Partitioning
+Link: https://leetcode.com/problems/palindrome-partitioning/
+Difficulty: Medium
+Description: Given a string s, partition s such that every substring of the partition is a palindrome.
+
+9. Restore IP Addresses
+Link: https://leetcode.com/problems/restore-ip-addresses/
+Difficulty: Medium
+Description: Given a string containing only digits, restore it by returning all possible valid IP address combinations.
+
+10. Generate Parentheses
+Link: https://leetcode.com/problems/generate-parentheses/
+Difficulty: Medium
+Description: Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+11. N-Queens
+Link: https://leetcode.com/problems/n-queens/
+Difficulty: Hard
+Description: The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens threaten each other.
+
+12. Word Search
+Link: https://leetcode.com/problems/word-search/
+Difficulty: Medium
+Description: Given an m x n board and a word, find if the word exists in the grid.
+
+13. Path Sum II
+Link: https://leetcode.com/problems/path-sum-ii/
+Difficulty: Medium
+Description: Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
+
+14. Combination Sum III
+Link: https://leetcode.com/problems/combination-sum-iii/
+Difficulty: Medium
+Description: Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used.
+
+15. Find All Anagrams in a String
+Link: https://leetcode.com/problems/find-all-anagrams-in-a-string/
+Difficulty: Medium
+Description: Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
