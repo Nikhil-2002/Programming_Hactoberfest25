@@ -1,0 +1,38 @@
+/*
+Steps:
+1. Directly take a string as input.
+2. Keep a list and a temporary string str.
+3. Traverse in the string add the characters in the temporary string until the white space encountered.
+4. If white space encountered, add the temporary string to list after converting to integer.
+5. Make temporary string empty string.
+6. after coming out of the string again check the temporary string and add.
+Note: step 6 is important as in most of the cases white space will not come at the end.
+      so, after coming to end add the temporary string in end.
+7. Now, you have the list of integers, without giving the input number of elements.
+
+*/
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        String str="";
+        int n=s.length();
+        List<Integer>list=new ArrayList<>();
+        for(int i=0;i<n;i++){
+            if(s.charAt(i)==' '){
+                int num=Integer.parseInt(str);
+                list.add(num);
+                str="";
+            }
+            else str+=s.charAt(i);
+        }
+        list.add(Integer.parseInt(str));
+        System.out.println(list);
+    }
+}
