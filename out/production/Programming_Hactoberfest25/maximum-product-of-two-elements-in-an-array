@@ -1,0 +1,56 @@
+/*
+                                                      Approach 1
+                                                  Time Complexity: O(nlogn)
+*/
+
+class Solution {
+    public int maxProduct(int[] nums) {
+		Arrays.sort(nums); //O(nlogn) time complexity sorting quick sort 
+        return (nums[nums.length-1]-1)*(nums[nums.length-2]-1);
+    }
+}
+
+/* 
+                                                        Approach 2
+                                                    Time Complexity: O(n)
+*/
+class Solution {
+    public int maxProduct(int[] nums) {
+       int[] arr=new int[2];
+        arr[0]=nums[0];//take array of size 2 store maximum two elements as we traverse through the array.
+        arr[1]=nums[1];
+		//Once traversing the array has O(n) time complexity
+        for(int i=2;i<nums.length;i++){
+		//if both stored elements are smaller than the nums[i], replace the smaller one with nums[i]
+            if(nums[i]>arr[0] && nums[i]>arr[1]){
+                if(arr[0]<arr[1]){
+                    arr[0]=nums[i];
+                }
+                else arr[1]=nums[i];
+            }
+			//else if  only one element is smaller then replace that with nums[i]
+            else if(nums[i]>arr[0]){
+                arr[0]=nums[i];
+            }
+            else if(nums[i]>arr[1]){
+                arr[1]=nums[i];
+            }
+        }
+        return (arr[0]-1)*(arr[1]-1);
+    }
+}
+
+/*
+                                                    Approach 3
+                                              Time complexity: O(n) using PriorityQueue
+*/
+class Solution {
+    public int maxProduct(int[] nums) {
+        PriorityQueue<Integer>pq=new PriorityQueue<>();
+        for(int num:nums){
+            pq.offer(num);
+            if(pq.size()>2)pq.poll();
+        }
+        return (pq.poll()-1)*(pq.poll()-1);
+    }
+}
