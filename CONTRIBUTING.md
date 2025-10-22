@@ -7,7 +7,7 @@ Welcome to Programming_Hactober23 ! We appreciate your interest in contributing.
 Prior to beginning your contributions, please ensure the following:
 
 - Possess a GitHub Account.
-- Complete your contributor registration on the [Hacktoberfest 2023 website.](https://hacktoberfest.com/)
+- Complete your contributor registration on the [Hacktoberfest 2025 website.](https://hacktoberfest.com/)
 
 <br/>
 
